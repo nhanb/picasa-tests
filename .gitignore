@@ -1,0 +1,16 @@
+# plz don't leak this
+/google-credentials/
+
+# just temporarily
+/dummy-in.png
+
+# poetry build artifacts
+/dist/
+
+# Standard issue Python stuff
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# KDE Dolphin
+.directory

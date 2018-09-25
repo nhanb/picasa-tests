@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pytaku2"
+version = "0.1.0"
+description = ""
+authors = ["nhanb <nhan@nerdyweekly.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+google-auth = "^1.5"
+google-auth-oauthlib = "^0.2.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^6.5"
+flake8 = "^3.5"
